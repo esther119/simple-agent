@@ -1,0 +1,9 @@
+linkedin:
+  base_url: "https://www.linkedin.com/jobs"
+  selectors:
+    keyword_input: "[aria-label='Search by title, skill, or company']"
+    location_input: "[aria-label='City, state, or zip code']"
+    job_card: ".job-card-container"
+    job_title: ".job-card-list__title"
+    company_name: ".job-card-container__company-name"
+    location: ".job-card-container__metadata-item"
